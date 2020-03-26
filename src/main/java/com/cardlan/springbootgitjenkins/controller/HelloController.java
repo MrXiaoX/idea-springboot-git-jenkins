@@ -11,4 +11,9 @@ public class HelloController {
     public String sayHi(){
         return "hello git jenkins";
     }
+
+    @GetMapping("/jenkins")
+    public String jenkins(){
+        return "hello idea git jenkins";
+    }
 }
